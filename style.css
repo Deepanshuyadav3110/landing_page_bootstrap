@@ -1,0 +1,13 @@
+#deeplogo{
+    font-family: "Cinzel", serif;
+    color:white;
+    font-size: 2rem;
+}
+#deep{
+    color:white;
+    font-size:1.3rem;
+
+}
+#deep:hover{
+    color:rgb(139, 141, 140);
+}

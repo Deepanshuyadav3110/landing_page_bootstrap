@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aklavya</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" id="deeplogo">AKLAVYA</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active " aria-current="page" href="#" id="deep">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"id="deep">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" id="deep">Client</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="deep" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Software Development</a></li>
+                  <li><a class="dropdown-item" href="#">Web Development</li>
+                  <li><a class="dropdown-item" href="#">SEO</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  href="#" id="deep" >Contact Us</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-primary" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+    <!-- carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="image/mycarslider.png" class="d-block w-100" alt="" id="deepcar">
+          </div>
+          <div class="carousel-item">
+            <img src="image/myven1.jpeg" class="d-block w-100" alt="" id="deepcar">
+          </div>
+          <div class="carousel-item">
+            <img src="image/key.jpg" class="d-block w-100" alt="" id="deepcar">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    
+      <!-- services -->
+
+      <div class="container-fluid">
+        <div class="row justify-content-evenly mt-5 mb-3">
+            <div class="col-md-3 text-center pt-3 pb-2">
+                <h1><i class="bi bi-file-code-fill text-primary"></i></h1>
+                <h5>Web Development</h5>
+                <p>
+                    Web development is the work involved in developing a website for the Internet (World Wide Web) or an intranet (a private network).
+                </p>
+            </div>
+            <div class="col-md-3 text-center pt-3 pb-2">
+                <h1><i class="bi bi-easel-fill text-danger"></i></h1>
+                <h5>Build logic</h5>
+                <p>Logic is the study of correct reasoning. It includes both formal and informal logic. Formal logic is the study of deductively valid inferences.</p>
+            </div>
+            <div class="col-md-3 text-center pt-3 pb-2">
+                <h1><i class="bi bi-fingerprint text-success"></i></h1>
+                <h5>Biometric</h5>
+                <p>Biometrics are body measurements and calculations related to human characteristics. Biometric authentication (or realistic authentication)</p>
+            </div>
+        </div>
+      </div>
+
+      <!-- horizontal line -->
+       <hr>
+
+        <!-- course growth -->
+       <div class="container-fluid">
+        <div class="row justify-content-evenly mt-5 mb-3">
+            <div class="col-md-5 mt-4 mb-2">
+                <img src="image/growth.jpg" class="image-fluid" alt="" style="width:100%; height:400" >
+            </div>
+            <div class="col-md-5 mt-2 mb-2">
+                <h5 class="mt-3">Web Development</h5>
+                <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-success" style="width: 86%"></div>
+                  </div>
+                  <h5 class="pt-1 ">Software Development</h5>
+                  <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-info" style="width: 80%"></div>
+                  </div>
+                  <h5 class="pt-1">Mobile Development</h5>
+                  <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-warning" style="width: 75%"></div>
+                  </div>
+                  <h5 class="pt-1">SEO</h5>
+                  <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-danger" style="width: 100%"></div>
+                  </div>
+                  <h5 class="pt-1">Marketing</h5>
+                  <div class="progress" role="progressbar" aria-label="primary example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-primary" style="width: 90%"></div>
+                  </div>
+            </div>
+        </div>
+       </div>
+
+       <!-- form -->
+        <div class="container-fluid bg-light">
+            <div class="row justify-content-evenly mt-5">
+                <div class="col-md-5 mt-4 mb-2">
+                    <form>
+                        <h4>Contact Form</h4>
+                        <div class="mb-3">
+                          <label for="Name" class="form-label">Full Name</label>
+                          <input type="text" class="form-control" id="Name" aria-describedby="Namehelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="Email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                          </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </form>
+                </div>
+                <div class="col-md-5 mt-4 mb-2">
+                    <h4>Address</h4>
+                    <p>
+                        1180 Kimberly Way, WILLISTON PARK<br>
+                        New York- 11596<br>
+                        <i class="bi bi-telephone"></i>:917-772-5081
+                    </p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d37352.7049712488!2d-73.6829272006494!3d40.77406873669022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c287fca923be59%3A0x3d707390d209eb52!2s3rd%20Precinct!5e0!3m2!1sen!2sin!4v1717847826210!5m2!1sen!2sin" style="width:100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- faq section -->
+        <h4 class="mt-4 mb-2 text-center">#FAQ</h4>
+
+        <div class="container-fluid ">
+            <div class="row justify-content-center mt-3 mb-3">
+                <div class="col-md-10">
+                    <div class="accordion accordion-flush border" id="accordionFlushExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                              Question: Is your courses free or paid ?
+                            </button>
+                          </h2>
+                          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Our courses are paid as we gave a certificate and gives you a best quality of knowledge of problem solving, thiking and programming languages.</div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                              Question: Is your certificate is helpful in placement ?
+                            </button>
+                          </h2>
+                          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Yes absolutely because we have best teachers who can guide you to your complete journey and motivate you to learn and achieve what you want rather than it is a proof that you have to complete the certain course and give time to particular course.</div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                              Question: What is the fee structure of your courses?
+                            </button>
+                          </h2>
+                          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">You can see the fee structure in the service section in the navigation bar our fee structure is very affordable, our motive is to give you best knowledge in reasinable price.</div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <div class="container-fluid bg-dark text-white">
+            <div class="row justify-content-evenly">
+                <div class="col-md-3 mt-3 mb-2">
+                    <h5>Aklavya</h5>
+                    <p>Our motive is to provide you a good quality of knowledge becaues we are focusing on quality not quantity.
+                        all we are providing the good stuff of notes and documents. All the things are done with projects that you can completely intract with the functionality of the programming language.
+                    </p>
+                </div>
+                <div class="col-md-3 mt-3 mb-2">
+                    <h5>Important Links</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Features</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Pricing</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">About</a></li>
+                      </ul>
+                </div>
+                <div class="col-md-3 mt-3 mb-2">
+                    <h5>Contact Us</h5>
+                    <p>  1180 Kimberly Way<br>
+                         WILLISTON PARK<br>
+                        New York- 11596<br>
+                        <i class="bi bi-telephone"></i>:917-772-5081</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- rights reserved -->
+         <div class="container-fluid bg-secondary">
+            <div class="row justify-content-center">
+                <div class="col-md-10 text-center text-white mt-3 mb-3">
+                    <p>&copy; 2022 Company, Inc. All rights reserved.</p>
+                </div>
+            </div>
+         </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>
